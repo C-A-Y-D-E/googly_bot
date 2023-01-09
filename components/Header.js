@@ -43,9 +43,20 @@ const Header = () => {
               <a href="#roadmap">Roadmap</a>
             </li>
             <li className="hover:text-accent flex gap-2 items-center cursor-pointer">
-              <a href="#" className="flex items-center gap-2">
+              <a
+                href="https://t.me/GoogLyBotToken"
+                className="flex items-center gap-2"
+              >
                 <img src="/telegram.png" className="w-6" />{" "}
                 <span>Telegram</span>
+              </a>
+            </li>
+            <li className="hover:text-accent flex gap-2 items-center cursor-pointer">
+              <a
+                href="https://twitter.com/googlybottoken"
+                className="flex items-center gap-2"
+              >
+                <img src="/twitter.png" className="w-6" /> <span>Twitter</span>
               </a>
             </li>
           </ul>

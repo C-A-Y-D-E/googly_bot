@@ -3,7 +3,6 @@ module.exports = {
   reactStrictMode: true,
   swcMinify: true,
   experimental: {
-    runtime: "experimental-edge",
     appDir: true,
   },
 };

@@ -28,7 +28,7 @@ const Hero = () => {
             </p>
             <div className="flex gap-4 items-center flex-wrap">
               <a
-                href="https://www.pinksale.finance/launchpad/0x5C836268BF0123CaD1977f80b9762766d9AF9565?chain=BSC"
+                href="https://www.dexview.com/bsc/0x47B699024d2bA4aaA46B570E701689AA53f05236?trade=true"
                 target="_blank"
                 className="py-2 px-6 bg-blue-700 rounded-lg mt-6 inline-block capitalize"
               >
@@ -36,7 +36,7 @@ const Hero = () => {
               </a>
               <a
                 target="_blank"
-                href="https://whitepaper.spicynetwork.io"
+                href="https://www.dexview.com/bsc/0x47B699024d2bA4aaA46B570E701689AA53f05236"
                 className="py-2 px-6 border border-blue-700 rounded-lg mt-6 inline-block capitalize"
               >
                 Chart
