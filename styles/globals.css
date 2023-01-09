@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "SK";
+  src: url("../fonts/Sk-Modernist-Regular.woff2") format("woff2"),
+    url("../fonts/Sk-Modernist-Regular.otf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SK";
+  src: url("../fonts/Sk-Modernist-Bold.woff2") format("woff2"),
+    url("../fonts/Sk-Modernist-Bold.otf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SK";
+  src: url("../fonts/Sk-Modernist-Mono.woff2") format("woff2"),
+    url("../fonts/Sk-Modernist-Mono.otf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@layer base {
+  body {
+    @apply bg-black font-base text-white;
+  }
+  h1 {
+    @apply text-2xl md:text-6xl font-semibold leading-tight md:leading-tight;
+  }
+
+  h2 {
+    @apply text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight;
+  }
+}
