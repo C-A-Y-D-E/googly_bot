@@ -7,11 +7,6 @@ import Partners from "components/Partners";
 import Head from "next/head";
 import Footer from "components/Footer";
 import Header from "components/Header";
-import Swap from "components/Swap";
-import Staking from "components/Staking";
-import Bridge from "components/Bridge";
-import MarketPlace from "components/Marketplace";
-import Team from "components/Team";
 
 export default function Home() {
   return (
